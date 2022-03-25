@@ -1,0 +1,75 @@
+/* для кирилицы &display=swap&subset=cyrillic-ext */
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	box-sizing: border-box;
+}
+li {
+	list-style: none;
+}
+ul {
+	list-style-type: disc;
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+a,
+a:visited {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-weight: inherit;
+	font-size: inherit;
+}
+img {
+	vertical-align: top;
+}
+body {
+	line-height: 1;
+	color: ;
+	font-family: ;
+	font-size: ;
+	font-weight: ;
+	font-style: ;
+	background: ;
+	background-attachment: ;
+}
+html {
+	scroll-behavior: smooth;
+}
+p {
+	margin-block-start: 1em;
+	margin-block-end: 1em;
+	margin-inline-start: 0px;
+	margin-inline-end: 0px;
+}
+button {
+	cursor: pointer;
+	background-color: transparent;
+}
+input,
+button,
+textarea {
+	font-family: inherit;
+}
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+textarea {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
